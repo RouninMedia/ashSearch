@@ -1,6 +1,7 @@
 # ashSiteSearch
-The SiteSearch Module for ash
+The SiteSearch Module for ash.
 
+_______
 
 ## ashSiteSearch Search Filters
 
