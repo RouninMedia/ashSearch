@@ -22,7 +22,7 @@ To illustrate in more detail how the **Search Filter** is constructed:
 
 This means that any **Search Filter** will *always* follow the format:
 
- - **`Exclude`** folders `2`, `3` & `5` and all their descendant subfolders
+ - *Start:* **`Exclude`** folders `2`, `3` & `5` and all their descendant subfolders
  - *Except* **`Include`** subfolders `3.2` & `3.3` and all their descendant subfolders
  - *Except* **`Exclude`** subfolders `3.2.4` and all its descendant subfolders
  - *Except* **`Include`** `3.2.4.2` and all its descendant subfolders
