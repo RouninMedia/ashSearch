@@ -38,17 +38,17 @@ ______
 
 Given this, we can deduce that:
 
- - `{"Exclude_Folders":{"/":{},"*":{}}}` means *exclude the `root` and all the subfolders of this folder*
- - `{"Exclude_Folders":{"/":{}}}` means *exclude the `root` (but include all the subfolders) of this folder*
- - `{"Exclude_Folders":{"*":{}}}` means *exclude all the subfolders (but include the `root`) of this folder 
+ - `{"Exclude_Folders":{"/":{},"*":{}}}` means *exclude the `root` **and** all the subfolders of this folder*
+ - `{"Exclude_Folders":{"/":{}}}` means *exclude the `root` (**but** include all the subfolders) of this folder*
+ - `{"Exclude_Folders":{"*":{}}}` means *exclude all the subfolders (**but** include the `root`) of this folder*
  - `{"Exclude_Folders":{"my-folder":{}}}` means *exclude `my-folder`*
 
 and
 
- - `{"Include_Folders":{"/":{},"*":{}}}` means *include the `root` and all the subfolders of this folder*
- - `{"Include_Folders":{"/":{}}}` means *include the `root` (but exclude all the subfolders) of this folder*
- - `{"Include_Folders":{"*":{}}}` means *include all the subfolders (but exclude the `root`) of this folder
- - `{"Include_Folders":{"my-folder":{}}}` means *include `my-folder` (but exclude the `root` and **all other subfolders** of this folder)*
+ - `{"Include_Folders":{"/":{},"*":{}}}` means *include the `root` **and** all the subfolders of this folder*
+ - `{"Include_Folders":{"/":{}}}` means *include the `root` (**but** exclude all the subfolders) of this folder*
+ - `{"Include_Folders":{"*":{}}}` means *include all the subfolders (**but** exclude the `root`) of this folder*
+ - `{"Include_Folders":{"my-folder":{}}}` means *include `my-folder` (**but** exclude the `root` and **all other subfolders** of this folder)*
 
 _______
 
