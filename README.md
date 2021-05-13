@@ -4,7 +4,7 @@ The SiteSearch Module for ash
 
 ## ashSiteSearch Search Filters
 
-**Search Filters** are the single most powerful feature of **ashSiteSearch** since they enable unlimited sculpting of which pages on the site will be searched and which pages on the site will be ignored.
+**Search Filters** are the single most powerful feature of **ashSiteSearch** since they enable unlimited sculpting of which pages on the site the **SiteSearch** will search and which pages on the site the **SiteSearch** will ignore.
 
 The **Search Filter** uses a `JSON` syntax and comprises a set of nested and alternating `Include_Folders` and `Exclude_Folders` Directives, each directive indicating the exceptions to its own parent directive. To be clear, it's worth mentioning that while `Exclude` means *"Exclude these folders"*, its counterpart `Include` means *"only Include these folders and exclude everything else"*. 
 
