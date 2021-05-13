@@ -20,7 +20,7 @@ To illustrate in more detail how the **Search Filter** is constructed:
  - Each folder to be included or excluded will confirm that it requires zero exceptions to the parent directive (`{}`) if the same directive is intended to apply to all of its child folders, grandchild folders and subsequent descendant folders
  - **But**, if there *are* exceptions to the parent directive, these may be indicated by nesting a counter-directive (whichever is the contrary to the parent directive) within the curly braces, immediately followed by the next set of folders the new, exceptional, directive applies to
 
-This means that any **Search Filter** will *always* follow the format:
+This means that any **Search Filter** will *always* follow this kind of alternating format:
 
  - *Start:* **`Exclude`** folders `2`, `3` & `5` and all their descendant subfolders
  - *Except* **`Include`** subfolders `3.2` & `3.3` and all their descendant subfolders
