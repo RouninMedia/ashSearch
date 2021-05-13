@@ -37,6 +37,6 @@ To illustrate more verbosely how the **Search Filter** is constructed:
 
 ### Example 4:
 
-    {"Include_Folders":{"nail-products":{},"es":{}}}
+    {"Include_Folders":{"de":{},"es":{}}}
     
 **Explanation:**
