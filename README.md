@@ -8,6 +8,9 @@ The SiteSearch Module for ash
 
 The **Search Filter** uses a `JSON` syntax and comprises a set of nested and alternating `Include_Folders` and `Exclude_Folders` Directives, each directive indicating the exceptions to its own parent directive.
 
+_____
+
+## Constructing a Search Filter
 It's worth mentioning at this point that while `Exclude` means *"Exclude these folders"*, its counterpart `Include` means *"only Include these folders and exclude everything else"*. 
 
 To illustrate in more detail how the **Search Filter** is constructed:
@@ -20,7 +23,18 @@ This means that any **Search Filter** will *always* follow the format:
 
 > **`Exclude`** these folders and all their descendant subfolders, *except* be sure to **`Include`** these subfolders and all their descendant subfolders, *except* be sure to **`Exclude`** these subfolders and all their descendant subfolders, *except* be sure to **`Include`**...
 
+______
 
+## Special Syntax in Search Filters
+
+**Search Filters** use *two* special shorthand symbols:
+
+ - `*` is a shorthand meaning **all subfolders**
+ - `/` is a shorthand meaning **the root of this folder**
+
+_______
+
+## Examples of Search Filters
 
 
 ### Example 1:
